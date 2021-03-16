@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T08:25:44.742Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="SDGSH0oY3oy_YbFtcJ5S" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:28:36.728Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="O8R4km_0RbR5bmObVA7N" version="14.4.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1246" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
             <mxPoint x="397.5" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aJqS2GngOPCB8_TzCR6t-56" value="用户日清表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="aJqS2GngOPCB8_TzCR6t-56" value="用户日清表&lt;br&gt;datacube.dwa_customer_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="337.5" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJqS2GngOPCB8_TzCR6t-59" value="清洗/过滤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -149,13 +149,13 @@
         <mxCell id="aJqS2GngOPCB8_TzCR6t-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aJqS2GngOPCB8_TzCR6t-87" target="aJqS2GngOPCB8_TzCR6t-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aJqS2GngOPCB8_TzCR6t-87" value="rfm模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="aJqS2GngOPCB8_TzCR6t-87" value="rfm模型&lt;br&gt;datacube.dc_rfm_model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1431" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJqS2GngOPCB8_TzCR6t-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aJqS2GngOPCB8_TzCR6t-88" target="aJqS2GngOPCB8_TzCR6t-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aJqS2GngOPCB8_TzCR6t-88" value="用户维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="aJqS2GngOPCB8_TzCR6t-88" value="用户维度表&lt;br&gt;datacube.dim_customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1240" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJqS2GngOPCB8_TzCR6t-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aJqS2GngOPCB8_TzCR6t-93" target="aJqS2GngOPCB8_TzCR6t-101">
@@ -176,7 +176,7 @@
         <mxCell id="aJqS2GngOPCB8_TzCR6t-101" value="通过domain、customers_id进行left join" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="810" y="640" width="293" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aJqS2GngOPCB8_TzCR6t-104" value="用户画像表" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="aJqS2GngOPCB8_TzCR6t-104" value="用户画像表&lt;br&gt;datacube.dwa_customer_profile_w" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="896.5" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJqS2GngOPCB8_TzCR6t-127" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
