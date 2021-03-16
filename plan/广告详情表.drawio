@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:38:09.479Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-wIFOIEgsUGKZrGTyuhA" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:43:34.075Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="QE0UX00JSpHZMQVJ28jE" version="14.4.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1246" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,14 +109,14 @@
         <mxCell id="LPrWs4KQahPL30yWFCac-73" value="is_included" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="LPrWs4KQahPL30yWFCac-83" value="add_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
+          <mxGeometry y="156" width="140" height="28" as="geometry" />
+        </mxCell>
         <mxCell id="LPrWs4KQahPL30yWFCac-82" value="is_deleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
-          <mxGeometry y="156" width="140" height="26" as="geometry" />
+          <mxGeometry y="184" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="a3YdcTPkcFGG4K9MsBIl-58" value="del_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;html=0;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
-          <mxGeometry y="182" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LPrWs4KQahPL30yWFCac-83" value="add_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
-          <mxGeometry y="208" width="140" height="28" as="geometry" />
+          <mxGeometry y="210" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LPrWs4KQahPL30yWFCac-84" value="mod_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LPrWs4KQahPL30yWFCac-68" vertex="1">
           <mxGeometry y="236" width="140" height="26" as="geometry" />
@@ -258,8 +258,8 @@
         <mxCell id="a3YdcTPkcFGG4K9MsBIl-52" value="解析json逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry y="-1169" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a3YdcTPkcFGG4K9MsBIl-53" value="表关联逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="-480" width="140" height="60" as="geometry" />
+        <mxCell id="a3YdcTPkcFGG4K9MsBIl-53" value="表生成逻辑（首次全量/当天一天）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry y="-480" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a3YdcTPkcFGG4K9MsBIl-59" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -520,6 +520,9 @@
             <mxPoint x="200" y="225" as="sourcePoint" />
             <mxPoint x="360" y="225" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="l9Pveb7Ex-dBYzOga9pf-17" value="is_deleted：置为0&lt;br&gt;del_time：置为0&lt;br&gt;mod_time：与add_time同值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="352" width="160" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
