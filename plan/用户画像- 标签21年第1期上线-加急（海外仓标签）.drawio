@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T01:46:33.940Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="06IxV_zORl6tpCpOoCHt" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T08:28:38.142Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FALLirA4rjYErRqOT8gf" version="14.5.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1246" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-5" target="lj9EPyaLKJmnDl6cMXGN-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-5" value="customers_id, &lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;country_code as country_code&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-5" value="domain&lt;br&gt;customers_id, &lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;country_code as country_code&lt;br&gt;view&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-6" target="lj9EPyaLKJmnDl6cMXGN-8">
@@ -31,19 +31,19 @@
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-7" target="lj9EPyaLKJmnDl6cMXGN-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-7" value="customers_id, &lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;ship_country_code&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;as country_code&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-7" value="domain,&lt;br&gt;customers_id, &lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;ship_country_code&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;as country_code&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-8" target="lj9EPyaLKJmnDl6cMXGN-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-8" value="customers_id, &lt;span style=&quot;font-family: &amp;#34;simsun&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;reg_ip_cnt&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;as country_code&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-8" value="domain,&lt;br&gt;customers_id, &lt;span style=&quot;font-family: &amp;#34;simsun&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;reg_ip_cnt&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;as country_code&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;country_code&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-13" target="lj9EPyaLKJmnDl6cMXGN-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-13" value="国家代码合并去重&lt;br&gt;union&lt;br&gt;group by customers_id, country_code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-13" value="国家代码合并去重&lt;br&gt;union&lt;br&gt;group by &lt;br&gt;domain,&lt;br&gt;customers_id, country_code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="400" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-22" target="lj9EPyaLKJmnDl6cMXGN-24">
@@ -55,19 +55,19 @@
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-24" target="lj9EPyaLKJmnDl6cMXGN-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-24" value="通过国家代码left join" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-24" value="通过domain, country_code进行left join" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-30" target="lj9EPyaLKJmnDl6cMXGN-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-30" value="拿到海外仓&lt;br&gt;customers_id, country_code, warehouse_over_sea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-30" value="拿到海外仓&lt;br&gt;domain,&lt;br&gt;customers_id, country_code, warehouse_over_sea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-32" target="lj9EPyaLKJmnDl6cMXGN-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-32" value="concat_ws(&#39;,&#39;, collect_set(country_code)),&amp;nbsp;&lt;br&gt;concat_ws(&#39;,&#39; collect_set(warehouse_over_sea))&lt;br&gt;group by customers_id," style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-32" value="concat_ws(&#39;,&#39;, collect_set(country_code)),&amp;nbsp;&lt;br&gt;concat_ws(&#39;,&#39; collect_set(warehouse_over_sea))&lt;br&gt;group by domain,customers_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="382.5" y="840" width="355" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-34" target="lj9EPyaLKJmnDl6cMXGN-22">
@@ -85,7 +85,7 @@
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lj9EPyaLKJmnDl6cMXGN-37" target="lj9EPyaLKJmnDl6cMXGN-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lj9EPyaLKJmnDl6cMXGN-37" value="通过customers_id进行left join" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lj9EPyaLKJmnDl6cMXGN-37" value="通过domain,customers_id进行left join" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lj9EPyaLKJmnDl6cMXGN-40" value="输出海外仓格式：逗号 分隔的字符串，形如，“欧洲仓，美国仓，澳洲仓”" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
