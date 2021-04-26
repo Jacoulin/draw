@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T09:36:10.654Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a1UHK9XPwQAMZmhLAelN" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T09:41:34.678Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-z8OMQstcFwu5YzZE1Rh" version="14.5.6" type="github">
   <diagram id="2B8hpTvZoMjoiIP_GzMp" name="Page-1">
     <mxGraphModel dx="1246" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,8 +106,13 @@
         <mxCell id="W3VARKjG0lSGxsQkhrUv-38" value="df_tmp1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W3VARKjG0lSGxsQkhrUv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-40" target="W3VARKjG0lSGxsQkhrUv-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-40" target="W3VARKjG0lSGxsQkhrUv-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="960" />
+              <mxPoint x="1080" y="960" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="W3VARKjG0lSGxsQkhrUv-40" value="df_cst as t1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="730" width="120" height="60" as="geometry" />
@@ -119,9 +124,9 @@
           <mxGeometry x="1020" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W3VARKjG0lSGxsQkhrUv-42" value="df_tmp2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W3VARKjG0lSGxsQkhrUv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-43" target="W3VARKjG0lSGxsQkhrUv-46">
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-43" target="W3VARKjG0lSGxsQkhrUv-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W3VARKjG0lSGxsQkhrUv-43" value="一次性扫描30天周期内的数据 diff记录距设备新增日的天数&lt;br&gt;domain = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -130,8 +135,8 @@
         <mxCell id="W3VARKjG0lSGxsQkhrUv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-46" target="W3VARKjG0lSGxsQkhrUv-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W3VARKjG0lSGxsQkhrUv-46" value="inner join&lt;br&gt;on t1.customers_id = t2.customers_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="990" width="120" height="60" as="geometry" />
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-46" value="inner join&lt;br&gt;on t1.customers_id = t2.customers_id&lt;br&gt;inner join&lt;br&gt;on t1.device_number = t3.device_number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1010" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="W3VARKjG0lSGxsQkhrUv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-50" target="W3VARKjG0lSGxsQkhrUv-51">
           <mxGeometry relative="1" as="geometry" />
@@ -153,6 +158,17 @@
         </mxCell>
         <mxCell id="W3VARKjG0lSGxsQkhrUv-55" value="df_res" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-57" target="W3VARKjG0lSGxsQkhrUv-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="960" />
+              <mxPoint x="1080" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-57" value="df_dev as t3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
