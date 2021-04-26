@@ -1,1 +1,160 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T06:18:30.538Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.5.6" etag="Qb3L0Y7tbHNBBkKNBBus" type="github"><diagram id="2B8hpTvZoMjoiIP_GzMp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-26T09:36:10.654Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a1UHK9XPwQAMZmhLAelN" version="14.5.6" type="github">
+  <diagram id="2B8hpTvZoMjoiIP_GzMp" name="Page-1">
+    <mxGraphModel dx="1246" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-1" target="W3VARKjG0lSGxsQkhrUv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-1" value="dc_phone_source as t1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-2" target="W3VARKjG0lSGxsQkhrUv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-2" value="dwa_user_behavior_event_w_daily as t2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-3" target="W3VARKjG0lSGxsQkhrUv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-3" value="筛选出domain=1,并且resource_group 跟 site 不为空的device_number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-5" target="W3VARKjG0lSGxsQkhrUv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-5" target="W3VARKjG0lSGxsQkhrUv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-5" value="筛选安装日期内的新增设备ID device_number&lt;br&gt;（可能包含其他站点）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-7" target="W3VARKjG0lSGxsQkhrUv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-7" value="inner join on t1.device_number = t2.device_number，拿到domain=1并且resource_group跟site不为空的新增设备ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-10" value="输出中间表df_dev" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-12" target="W3VARKjG0lSGxsQkhrUv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-12" value="&lt;span&gt;中间表df_dev&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-13" target="W3VARKjG0lSGxsQkhrUv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-13" value="datacube.dc_id_mapping_collect_result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-14" target="W3VARKjG0lSGxsQkhrUv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-14" value="inner join on&amp;nbsp;t1.device_number = t2.current_device_id&lt;br&gt;获取新增设备对应customers_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="180" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-18" target="W3VARKjG0lSGxsQkhrUv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-18" value="datacube.dc_domain_config" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-19" target="W3VARKjG0lSGxsQkhrUv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-19" value="筛选出domain=1的 site, port" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-21" target="W3VARKjG0lSGxsQkhrUv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-21" value="left join on&amp;nbsp;t2.site = t3.site&lt;br&gt;拿到domain等于1的port" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-27" value="输出中间表df_cst" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-30" target="W3VARKjG0lSGxsQkhrUv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-30" value="df_dev as t2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-31" target="W3VARKjG0lSGxsQkhrUv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-31" value="datacube.dwa_user_behavior_event_w_daily as t1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-32" target="W3VARKjG0lSGxsQkhrUv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-32" value="一次性扫描30天周期内的数据 diff记录距设备新增日的天数&lt;br&gt;domain = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-35" target="W3VARKjG0lSGxsQkhrUv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-35" value="inner join&lt;br&gt;on t1.device_number = t2.device_number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-38" value="df_tmp1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-40" target="W3VARKjG0lSGxsQkhrUv-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-40" value="df_cst as t1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-41" target="W3VARKjG0lSGxsQkhrUv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-41" value="&amp;nbsp;datacube.dwa_orders_gmv as t2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-42" value="df_tmp2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-43" target="W3VARKjG0lSGxsQkhrUv-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-43" value="一次性扫描30天周期内的数据 diff记录距设备新增日的天数&lt;br&gt;domain = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-46" target="W3VARKjG0lSGxsQkhrUv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-46" value="inner join&lt;br&gt;on t1.customers_id = t2.customers_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-50" target="W3VARKjG0lSGxsQkhrUv-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-50" value="df_dev" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-51" target="W3VARKjG0lSGxsQkhrUv-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-51" value="count(*)&lt;br&gt;group by&amp;nbsp;dctime, resource_group, port&lt;br&gt;统计出新增设备数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3VARKjG0lSGxsQkhrUv-53" target="W3VARKjG0lSGxsQkhrUv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-53" value="通过lateral view explode(array(1, 7, 15, 30))打散，即1行数据变成4行，用作后面周期统计关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1550" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W3VARKjG0lSGxsQkhrUv-55" value="df_res" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
