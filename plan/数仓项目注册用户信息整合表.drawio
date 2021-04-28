@@ -1,41 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:30:54.747Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TqZQNIKpNfMt1fD3xXc-" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:40:04.000Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="R4P2rMZy_NT553iRFw2h" version="14.6.6" type="github">
   <diagram id="-6E6Ulmo4Ajp1IC_htVW" name="Page-1">
     <mxGraphModel dx="1246" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-1" target="dnoHEhGw6WpvXnjdrp3y-3">
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="50" width="530" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-1" value="各个站点gdpr_customers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="90" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-2" value="各个站点customers_info" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=0;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-3" value="select 公共字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="90" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dnoHEhGw6WpvXnjdrp3y-18" source="dnoHEhGw6WpvXnjdrp3y-1" target="dnoHEhGw6WpvXnjdrp3y-3">
+          <mxGeometry y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-5" value="select&amp;nbsp; 公共字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="350" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dnoHEhGw6WpvXnjdrp3y-18" source="dnoHEhGw6WpvXnjdrp3y-2" target="dnoHEhGw6WpvXnjdrp3y-5">
+          <mxGeometry y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-7" value="left join on t1.customers_id = t2.customers_info_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="210" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dnoHEhGw6WpvXnjdrp3y-18" source="dnoHEhGw6WpvXnjdrp3y-3" target="dnoHEhGw6WpvXnjdrp3y-7">
+          <mxGeometry y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dnoHEhGw6WpvXnjdrp3y-18" source="dnoHEhGw6WpvXnjdrp3y-5" target="dnoHEhGw6WpvXnjdrp3y-7">
+          <mxGeometry y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-11" value="第一阶段合并所有相同字段" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry x="210" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dnoHEhGw6WpvXnjdrp3y-18" source="dnoHEhGw6WpvXnjdrp3y-7" target="dnoHEhGw6WpvXnjdrp3y-11">
+          <mxGeometry y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-14" value="判断domain，控制业务库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-18">
+          <mxGeometry width="530" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720" y="50" width="580" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry width="580" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-20" value="判断domain，控制业务库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-21" value="第二阶段合并有差异的字段" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry x="200" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-22" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-23" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-24" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry x="401" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="dnoHEhGw6WpvXnjdrp3y-26">
+          <mxGeometry x="150" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-27" target="dnoHEhGw6WpvXnjdrp3y-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-1" value="各个站点gdpr_customers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-27" value="left join on t1.cusotmers_id = t2.customers_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-2" target="dnoHEhGw6WpvXnjdrp3y-5">
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-17" target="dnoHEhGw6WpvXnjdrp3y-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-2" value="各个站点customers_info" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-3" target="dnoHEhGw6WpvXnjdrp3y-7">
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-19" target="dnoHEhGw6WpvXnjdrp3y-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-3" value="select 公共字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-5" target="dnoHEhGw6WpvXnjdrp3y-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-5" value="select&amp;nbsp; 公共字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dnoHEhGw6WpvXnjdrp3y-7" target="dnoHEhGw6WpvXnjdrp3y-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-7" value="left join on t1.customers_id = t2.customers_info_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dnoHEhGw6WpvXnjdrp3y-11" value="输出dim_gdpr_customers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="555" width="120" height="60" as="geometry" />
+        <mxCell id="dnoHEhGw6WpvXnjdrp3y-30" value="输出统一口径，统一字段命名，统一字段类型的整合表&lt;br&gt;dim_gdpr_customers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
