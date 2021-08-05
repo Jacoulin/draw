@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-05T04:03:03.282Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="MgDC-zlLHXFtEe3diZHm" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-05T05:50:03.127Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7_j9SPgVsPzmPeblj-KU" version="14.8.4" type="github">
   <diagram id="gjn2pnfLC-DdatZ9OVMk" name="Page-1">
     <mxGraphModel dx="1246" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,16 +118,16 @@
         <mxCell id="a-OUekfILg_V3n5y1KkX-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a-OUekfILg_V3n5y1KkX-62" source="a-OUekfILg_V3n5y1KkX-66" target="a-OUekfILg_V3n5y1KkX-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a-OUekfILg_V3n5y1KkX-69" value="删除外部表：&lt;br&gt;datacube_dev.dc_session_hudi_zyl&lt;br&gt;创建视图表：&lt;br&gt;datacube_dev.dc_session_hudi_zyl&lt;br&gt;指向&lt;br&gt;datacube_dw.dc_session_archive&lt;br&gt;入湖hudi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
+        <mxCell id="a-OUekfILg_V3n5y1KkX-69" value="删除外部表：&lt;br&gt;datacube_dw.dc_session&lt;br&gt;创建视图表：&lt;br&gt;datacube_dw.dc_session&lt;br&gt;指向&lt;br&gt;datacube_dw.dc_session_archive&lt;br&gt;入湖hudi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
           <mxGeometry x="20" y="620" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="a-OUekfILg_V3n5y1KkX-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a-OUekfILg_V3n5y1KkX-62" source="a-OUekfILg_V3n5y1KkX-67" target="a-OUekfILg_V3n5y1KkX-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a-OUekfILg_V3n5y1KkX-71" value="外部表&lt;br&gt;datacube_dev.dc_session_hudi_zyl_tmp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
+        <mxCell id="a-OUekfILg_V3n5y1KkX-71" value="外部表&lt;br&gt;datacube_dw.dc_session_tmp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
           <mxGeometry x="60" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a-OUekfILg_V3n5y1KkX-72" value="入湖结束后，修改外部表名为：&lt;br&gt;datacube_dev.dc_session_hudi_zyl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
+        <mxCell id="a-OUekfILg_V3n5y1KkX-72" value="入湖结束后，修改外部表名为：&lt;br&gt;datacube_dw.dc_session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
           <mxGeometry x="60" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a-OUekfILg_V3n5y1KkX-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a-OUekfILg_V3n5y1KkX-62" source="a-OUekfILg_V3n5y1KkX-71" target="a-OUekfILg_V3n5y1KkX-72">
@@ -169,7 +169,7 @@
         <mxCell id="a-OUekfILg_V3n5y1KkX-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="a-OUekfILg_V3n5y1KkX-62" source="a-OUekfILg_V3n5y1KkX-84" target="a-OUekfILg_V3n5y1KkX-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a-OUekfILg_V3n5y1KkX-84" value="外部表&lt;br&gt;datacube_dev.dc_session_hudi_zyl" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
+        <mxCell id="a-OUekfILg_V3n5y1KkX-84" value="外部表&lt;br&gt;datacube_dw.dc_session" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="a-OUekfILg_V3n5y1KkX-62">
           <mxGeometry x="400" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a-OUekfILg_V3n5y1KkX-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="a-OUekfILg_V3n5y1KkX-62" source="a-OUekfILg_V3n5y1KkX-64" target="a-OUekfILg_V3n5y1KkX-82">
