@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T05:57:00.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g4v9jKvegYtZzw6Qs4-T" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:29:06.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tm2F6ohRMUPXSRRDpK8-" version="21.3.7" type="github">
   <diagram name="第 1 页" id="O_QHGvnCZH730tNBmOar">
     <mxGraphModel dx="1434" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,30 @@
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-34" value="流量主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-35" value="用户主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-36" value="课程主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-37" value="考试主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-38" value="完课主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-39" value="交易主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-40" value="播放主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-41" value="作业主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
