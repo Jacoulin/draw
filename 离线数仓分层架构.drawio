@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T10:29:06.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tm2F6ohRMUPXSRRDpK8-" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:30:25.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yy67sddKJVHu8pCHhghK" version="21.3.7" type="github">
   <diagram name="第 1 页" id="O_QHGvnCZH730tNBmOar">
     <mxGraphModel dx="1434" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="saVYviV8NVjSQybobaWA-32" value="互动域收藏明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-33" value="互动域课程评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-34" value="流量主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -117,6 +117,12 @@
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-41" value="作业主题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-42" value="互动域章节评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-43" value="互动域作业评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
