@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T03:52:25.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sdQbQZYkViYLJ87ce7ga" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T03:54:09.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RE4orGHuV1olOmiHUqK4" version="21.3.7" type="github">
   <diagram name="第 1 页" id="O_QHGvnCZH730tNBmOar">
     <mxGraphModel dx="1195" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,25 +10,25 @@
         <mxCell id="saVYviV8NVjSQybobaWA-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6EFFF;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="170" y="640" width="910" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="180" y="690" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-4" value="事件日志表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-4" value="事件日志表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="190" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-5" value="用户日志表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-5" value="用户日志表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="320" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-6" value="埋点日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="460" y="690" width="610" height="120" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-8" value="ODS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="650" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="470" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-10" value="业务系统数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         <mxCell id="saVYviV8NVjSQybobaWA-17" value="交易域下单事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-18" value="交易域支付事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-18" value="交易域支付事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="440" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-19" value="流量域页面浏览明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -58,34 +58,34 @@
         <mxCell id="saVYviV8NVjSQybobaWA-20" value="流量域页面点击明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-21" value="用户维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-21" value="用户维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-22" value="课程维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-22" value="课程维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-23" value="章节维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-23" value="章节维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-24" value="交易域退款事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-24" value="交易域退款事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="570" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-25" value="优惠券维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-25" value="优惠券维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-26" value="活动维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-26" value="活动维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-27" value="地区维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-27" value="地区维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-28" value="时间维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-28" value="时间维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-29" value="试卷维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-29" value="试卷维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-30" value="作业维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-30" value="作业维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="950" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-32" value="互动域收藏明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -130,7 +130,7 @@
         <mxCell id="saVYviV8NVjSQybobaWA-49" value="用户域用户注册事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-50" value="流量域默认事件事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-50" value="流量域默认事件事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="440" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-53" value="用户域教师注册事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -148,8 +148,53 @@
         <mxCell id="saVYviV8NVjSQybobaWA-57" value="学习域驳回作业事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-58" value="学习域点评作业事实明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-58" value="学习域点评作业事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="700" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-59" value="用户域用户注册事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-60" value="学习域预约直播事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-61" value="考试域试卷事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-62" value="互动域收藏明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-63" value="流量域页面浏览明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-64" value="交易域加购事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-65" value="交易域下单事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-66" value="流量域页面点击明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-67" value="互动域课程评价" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-68" value="考试域答题事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-69" value="学习域观看直播事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-70" value="用户域教师注册事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-71" value="用户域开通会员事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-72" value="学习域提交作业事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saVYviV8NVjSQybobaWA-73" value="学习域驳回作业事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
