@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T07:36:18.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ziaj1eOquqVbXgWc3XrN" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T07:40:59.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eZ4na_FQ5uQforoJvXQ2" version="21.3.7" type="github">
   <diagram name="第 1 页" id="E_SaY4nuJPPijSIZm-4i">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,17 +10,17 @@
         <mxCell id="9yNLFaegfRONK6_nUUnn-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="600" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="9yNLFaegfRONK6_nUUnn-6" value="数据服务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9yNLFaegfRONK6_nUUnn-6" value="数据加工层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="330" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9yNLFaegfRONK6_nUUnn-7" value="接口层数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="560" width="360" height="60" as="geometry" />
+        <mxCell id="9yNLFaegfRONK6_nUUnn-7" value="离线计算（spark、hive）、实时计算(flink)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="580" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9yNLFaegfRONK6_nUUnn-8" value="存储层数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="490" width="360" height="60" as="geometry" />
+        <mxCell id="9yNLFaegfRONK6_nUUnn-8" value="数据仓库（spark、hive）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="580" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9yNLFaegfRONK6_nUUnn-9" value="轻度汇总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="420" width="360" height="60" as="geometry" />
+        <mxCell id="9yNLFaegfRONK6_nUUnn-9" value="流量汇总、交易汇总、学习汇总、互动汇总、营销汇总、用户汇总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9yNLFaegfRONK6_nUUnn-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="650" width="600" height="80" as="geometry" />
