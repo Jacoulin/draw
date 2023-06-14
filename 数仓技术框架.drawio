@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:23:55.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VD_UGJRS2bkr6LP3uj9q" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:25:00.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G3Ff4Yk3DIRI2VQtfOmq" version="21.3.7" type="github">
   <diagram name="第 1 页" id="vdzrk289qCVrFVknnBAK">
-    <mxGraphModel dx="2757" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3434" dy="2514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="itOysnZOuOF3svwBUNbd-76" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="-1290" y="-300" width="1030" height="980" as="geometry" />
+          <mxGeometry x="-40" y="-190" width="1007.5" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6EFFF;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="600" height="500" as="geometry" />
@@ -95,12 +95,12 @@
           <mxGeometry x="740" y="370" width="180" height="350" as="geometry" />
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-68" value="HTTP/SOAP/REST..." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#E6EFFF;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="-150" width="930" height="60" as="geometry" />
+          <mxGeometry y="-150" width="930" height="60" as="geometry" />
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-69" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#6C8EBF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-35" y="-70" as="sourcePoint" />
-            <mxPoint x="955" y="-70" as="targetPoint" />
+            <mxPoint x="-30" y="-70" as="sourcePoint" />
+            <mxPoint x="960" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-70" value="共享数据访问" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
