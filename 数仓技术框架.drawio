@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T01:44:46.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8TCk7_9P-P6yW95gzL46" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T01:53:49.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8n3oVz7hKACq9O8gnCXT" version="21.3.7" type="github">
   <diagram name="第 1 页" id="vdzrk289qCVrFVknnBAK">
-    <mxGraphModel dx="3217" dy="2496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="itOysnZOuOF3svwBUNbd-76" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-110" width="1030" height="980" as="geometry" />
+        </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6EFFF;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="600" height="500" as="geometry" />
         </mxCell>
@@ -92,12 +95,12 @@
           <mxGeometry x="740" y="415" width="180" height="300" as="geometry" />
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-68" value="HTTP/SOAP/REST..." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#E6EFFF;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="-61" width="930" height="60" as="geometry" />
+          <mxGeometry y="-61" width="930" height="60" as="geometry" />
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-69" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#6C8EBF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="19" as="sourcePoint" />
-            <mxPoint x="1040" y="19" as="targetPoint" />
+            <mxPoint x="-30" y="19" as="sourcePoint" />
+            <mxPoint x="960" y="19" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="itOysnZOuOF3svwBUNbd-70" value="共享数据访问" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
