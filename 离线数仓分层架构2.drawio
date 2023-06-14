@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:54:03.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AZH8HxfFh4yCBwbqrA8W" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:59:05.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nvvhu-KlQ4XnPBH0Bpvi" version="21.3.7" type="github">
   <diagram name="第 1 页" id="O_QHGvnCZH730tNBmOar">
-    <mxGraphModel dx="4168" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3676" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,19 +86,19 @@
           <mxGeometry x="770" y="200" width="140" height="410" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-88" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#E6EFFF;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-90" width="760" height="220" as="geometry" />
+          <mxGeometry x="160" y="-60" width="760" height="190" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-89" value="DWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-80" width="60" height="30" as="geometry" />
+          <mxGeometry x="170" y="-50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-90" value="交易域加购汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="170" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-91" value="学习域直播汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-10" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-92" value="交易域下单汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-93" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#E6EFFF;" parent="1" vertex="1">
           <mxGeometry x="260" y="-400" width="820" height="220" as="geometry" />
@@ -107,25 +107,19 @@
           <mxGeometry x="270" y="-390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-99" value="交易域支付汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="430" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-100" value="交易域退款汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="560" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="saVYviV8NVjSQybobaWA-100" value="......" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="780" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-101" value="学习域作业汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="300" y="-10" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-102" value="学习域课程汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-10" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-103" value="考试域试卷粒度汇总" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-10" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-104" value="交易主题：加购次数、加购人数、加购金额、下单次数、下单人数、下单金额、优惠金额、支付金额、退款次数、退款金额&lt;br&gt;课程主题：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="-360" width="800" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-105" value="考试域题目粒度汇总" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-107" value="学习域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="810" y="215" width="60" height="30" as="geometry" />
@@ -219,6 +213,15 @@
         </mxCell>
         <mxCell id="wcvfJDTOzy3qHPwnN3P7-22" value="开通会员事实明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="630" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wcvfJDTOzy3qHPwnN3P7-23" value="交易域退款汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wcvfJDTOzy3qHPwnN3P7-24" value="互动域评价汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wcvfJDTOzy3qHPwnN3P7-25" value="互动域收藏汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
