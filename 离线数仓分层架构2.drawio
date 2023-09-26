@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T02:59:03.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="QptQHeAKePpvOkMoV4te" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T03:08:42.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hDKSvkChfPRvY0RY776s" version="21.7.5" type="github">
   <diagram name="第 1 页" id="O_QHGvnCZH730tNBmOar">
     <mxGraphModel dx="2261" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,16 +43,16 @@
         <mxCell id="saVYviV8NVjSQybobaWA-21" value="用户维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-22" value="课程维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-22" value="课程环节维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-23" value="章节维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-23" value="部门员工维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-25" value="优惠券维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-26" value="活动维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-26" value="分销商维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-27" value="日期维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="saVYviV8NVjSQybobaWA-28" value="课程章节维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saVYviV8NVjSQybobaWA-30" value="作业维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="saVYviV8NVjSQybobaWA-30" value="爆款课程皮肤维度表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="950" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saVYviV8NVjSQybobaWA-34" value="流量主题" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" parent="1" vertex="1">
